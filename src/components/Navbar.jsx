@@ -81,7 +81,7 @@ const Navbar = () => {
                 </ul>
               )}
             </li>
-            <li><Link to="/chairpersons" className="hover:text-blue-500">Chairpersons</Link></li>
+            <li><Link to="/administration" className="hover:text-blue-500">Administration</Link></li>
             <li><Link to="/gallery" className="hover:text-blue-500">Gallery</Link></li>
             <li><Link to="/faculties" className="hover:text-blue-500">Faculties</Link></li>
           </ul>
@@ -137,8 +137,8 @@ const Navbar = () => {
                 )}
               </li>
               <li>
-                <button onClick={() => handleMobileNavClick("/chairpersons")} className="hover:text-blue-500">
-                  Chairpersons
+                <button onClick={() => handleMobileNavClick("/administration")} className="hover:text-blue-500">
+                  Administration
                 </button>
               </li>
               <li>

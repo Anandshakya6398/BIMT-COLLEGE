@@ -6,10 +6,10 @@ import About from "./pages/About";
 // import Bca from "./pages/Bca";
 import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
-import Chairpersons from "./pages/Chairpersons";
 import Faculties from "./pages/Faculties";
 import Footer from "./components/Footer";
 import Bca from "./pages/courses/Bca";
+import Administration from "./pages/Administration";
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/bca" element={<Bca />} />
           <Route path="/apply" element={<Contact />} />
-          <Route path="/chairpersons" element={ <Chairpersons/>} />
+          <Route path="/administration" element={ <Administration/>} />
           <Route path="/faculties" element={ <Faculties/>} />
           {/* <Route path="/faculties" element={ <Contact/>} /> */}
 

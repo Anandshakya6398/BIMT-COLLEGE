@@ -2,7 +2,7 @@ import React from "react";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
 import Chairperson1 from '../assets/director.jpg'
 
-const Chairpersons = () => {
+const Administration = () => {
   return (
     <>
     <div className=" bg-gray-100 py-12 -mt-6 px-4 md:px-16">
@@ -137,4 +137,4 @@ const Chairpersons = () => {
   );
 };
 
-export default Chairpersons;
+export default Administration;
