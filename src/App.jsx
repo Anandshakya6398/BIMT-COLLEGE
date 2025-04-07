@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import Bca from "./pages/courses/Bca";
 import Administration from "./pages/Administration";
 
-
 function App() {
   return (
     <Router>
@@ -21,11 +20,11 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/bca" element={<Bca />} />
           <Route path="/apply" element={<Contact />} />
-          <Route path="/administration" element={ <Administration/>} />
-          <Route path="/faculties" element={ <Faculties/>} />
+          <Route path="/administration" element={<Administration />} />
+          <Route path="/faculties" element={<Faculties />} />
         </Routes>
       </div>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }

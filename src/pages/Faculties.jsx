@@ -69,7 +69,7 @@ const Faculties = () => {
         <div>
           <div className="ring-3 rounded ring-red-800  text-center mx-auto w-74 h-96">
             <a href="">
-              <img src={Sourav} alt="" className="h-86 w-72 rounded-2xl mx-auto" />
+              <img src={Sourav} alt="" className="h-86 w-72 rounded-2xl object-cover mx-auto" />
             </a>
             <p className="font-semibold font-mono text-lg py-2">
               <p>Mr. Sourav</p>
@@ -79,7 +79,7 @@ const Faculties = () => {
         <div>
           <div className="border-2 text-center mx-auto w-76 h-96">
             <a href="">
-              <img src={Arvind} alt="" className="w-72 mx-auto" />
+              <img src={Arvind} alt="" className="w-72 object-cover mx-auto" />
             </a>
             <p className="font-semibold font-mono text-lg py-2">
               <p>Mr. Arvind Gupta</p>
@@ -89,7 +89,7 @@ const Faculties = () => {
         <div>
           <div className="border-2 text-center mx-auto w-76 h-96">
             <a href="">
-              <img src={Manoj} alt="" className="w-72 mx-auto" />
+              <img src={Manoj} alt="" className="w-72 object-cover mx-auto" />
             </a>
             <p className="font-semibold font-mono text-lg py-2">
               <p> Mr. Manoj</p>
@@ -169,7 +169,7 @@ const Faculties = () => {
         <div>
           <div className="border-2">
             <a href="">
-              <img src={WM2} alt="" className="" />
+              <img src={WM2} alt="" className="object-cover" />
             </a>
             <p className="font-semibold font-mono text-lg py-2">
               <a href=""> Department Of Computer Applications</a>
@@ -179,7 +179,7 @@ const Faculties = () => {
         <div>
           <div className="border-2">
             <a href="">
-              <img src={WM3} alt="" className="" />
+              <img src={WM3} alt="" className="object-cover" />
             </a>
             <p className="font-semibold font-mono text-lg py-2">
               <a href=""> Department Of Computer Applications</a>
@@ -189,7 +189,7 @@ const Faculties = () => {
         <div>
           <div className="border-2">
             <a href="">
-              <img src={WM4} alt="" className="" />
+              <img src={WM4} alt="" className="object-cover" />
             </a>
             <p className="font-semibold font-mono text-lg py-2">
               <a href=""> Department Of Computer Applications</a>
