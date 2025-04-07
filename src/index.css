@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@keyframes marquee {
+  0% {
+    transform: translateX(70vw); /* Start completely off-screen at the right */
+  }
+  100% {
+    transform: translateX(-80%); /* Move completely off-screen to the left */
+  }
+}
+
+.animate-marquee {
+  animation: marquee 14s linear infinite; /* Adjust speed here */
+  white-space: nowrap;
+}
+
+.hover\:animate-paused:hover {
+  animation-play-state: paused; /* Pause animation on hover */
+}
+/* .colors{
+  letter-spacing: 0.07rem;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #ff0000, #6a00a8, #3d0071);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
