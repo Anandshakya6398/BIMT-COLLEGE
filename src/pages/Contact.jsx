@@ -70,8 +70,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_lccvb08", "template_xy4l8pb", form.current, {
-        publicKey: "uT1Axx_-o0e8A5pNi",
+      .sendForm("service_ID", "template_ID", form.current, {
+        publicKey: "",
       })
       .then(
         () => {
@@ -271,12 +271,8 @@ const Contact = () => {
         <button className="mt-8 px-6 py-3 bg-white border border-gray-300 rounded-lg text-gray-900 font-medium shadow-md hover:bg-gray-200 cursor-pointer transition">
           Start Your Journey Now
         </button>
-
-        {/* <div className="fixed right-0 top-1/2 transform -translate-y-1/2 bg-green-600 text-white px-4 py-2 rounded-l-lg rotate-90 cursor-pointer shadow-lg">
-        Enquire now
-      </div> */}
       </div>
-
+      
       {/* Campus Life & Events - Scrollable Images */}
 
       <div className="bg-white rounded-xl p-5 shadow-lg w-full max-w-6xl mx-auto">

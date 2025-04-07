@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
-// import Services from "./pages/Courses";
-// import Bca from "./pages/Bca";
 import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
 import Faculties from "./pages/Faculties";
@@ -25,8 +23,6 @@ function App() {
           <Route path="/apply" element={<Contact />} />
           <Route path="/administration" element={ <Administration/>} />
           <Route path="/faculties" element={ <Faculties/>} />
-          {/* <Route path="/faculties" element={ <Contact/>} /> */}
-
         </Routes>
       </div>
       <Footer/>
