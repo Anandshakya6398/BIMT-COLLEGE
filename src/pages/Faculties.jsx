@@ -15,7 +15,7 @@ import "./Faculties.css";
 const Faculties = () => {
   return (
     <div>
-        <div className="hero-section">
+        <div className="hero-section ">
       {/* Background Image */}
       <div
         className="hero-background"
@@ -50,13 +50,14 @@ const Faculties = () => {
           <div className="stat-box">
             <FaIndustry className="stat-icon" />
             <div>
-              <p className="stat-number">0+</p>
+              <p className="stat-number">50+</p>
               <p className="stat-label">Industry Collaborations</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+<div className="faculty-section">
 
       <h2 className="faculty-heading">Faculty Member</h2>
       <div className="faculty-grid">
@@ -76,6 +77,7 @@ const Faculties = () => {
           </div>
         ))}
       </div>
+</div>
     </div>
   );
 };
