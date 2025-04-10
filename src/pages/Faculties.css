@@ -1,6 +1,6 @@
 .hero-section {
     position: relative;
-    margin-top: 7.3rem;
+    margin-top: 7rem;
     width: 100%;
     height: 450px;
     display: flex;
@@ -38,8 +38,15 @@
   }
   
   .hero-title {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 700;
+    letter-spacing: 0.07rem;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #ff0000, #d0c8d5, #c6b7d3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
   }
   
   @media (min-width: 768px) {
@@ -69,7 +76,7 @@
   
   .stat-box {
     background-color: rgba(21, 128, 61, 0.7);
-    padding: 1rem;
+    padding: .4rem;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
@@ -102,17 +109,29 @@
     font-size: 0.875rem;
   }
   
-  /* Grid Title */
-  .grid-title {
-    font-size: 1.5rem;
-    font-weight: 700;
+  .faculty-section{
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    align-items: center;
   }
   .faculty-heading{
-    margin-top: 2rem;
+    /* margin-top: 2rem;
     color: red;
     font-size: 2rem;
     font-weight: 700;
+    text-align: center; */
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.07rem;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #ff0000, #6a00a8, #3d0071);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
   }
 
@@ -143,7 +162,7 @@
     border: 2px solid #ccc;
     border-radius: 0.75rem;
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(244, 236, 236);
     /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
     text-align: center;
     padding: 1rem;
@@ -151,10 +170,11 @@
   
   .faculty-card img {
     width: 100%;
-    height: 24rem;
+    height: 20rem;
     object-fit: cover;
     object-position: top;
     border-radius: 0.75rem;
+    cursor: pointer;
   }
   
   .faculty-name {
@@ -162,5 +182,6 @@
     font-size: 1.125rem;
     font-weight: 600;
     padding-top: 0.75rem;
+    cursor:default;
   }
   
